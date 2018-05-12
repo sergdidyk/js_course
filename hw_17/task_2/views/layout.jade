@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1 This is my very first website on #{title}
+
+    ul
+      li 
+        a(href='/') Main page
+      li 
+        a(href='/about') About
+      li 
+        a(href='/portfolio') Portfolio
+      li 
+        a(href='/contacts') Contacts
+    
+    block content
