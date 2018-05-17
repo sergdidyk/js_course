@@ -2,7 +2,7 @@ var weatherInformer = require('./weather_module');
 var http = require('http');
 var fs = require('fs');
 
-var city = "Dnipro"; //Please, enter city name in English. (for example: Dnipro, London, New York...)
+var city = "beijing"; //Please, enter city name in English. (for example: Dnipro, London, New York...)
 
 weatherInformer.weatherInCityNow(city);
 
