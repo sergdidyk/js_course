@@ -1,0 +1,59 @@
+.product_card{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.preview, 
+.main_view_container, 
+.price_container,
+.size_container,
+.color_container{
+	border: 1px solid lightblue;
+}
+
+.preview:hover{
+	border: 1px solid blue;
+}
+
+.image{
+	max-width: 100%;
+}
+
+.new_price{
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.old_price{
+	font-size: 16px;
+	text-decoration: line-through;
+}
+
+.size{
+	padding: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 50px;
+	font-size: 16px;
+	border: 1px solid lightblue;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.size:hover{
+	border: 1px solid blue;
+}
+
+.color{
+	width: 50px;
+	height: 50px;
+	border: 1px solid lightblue;
+	margin: 2px;
+	border-radius: 5px;
+	float: left;
+	cursor: pointer;
+}
+
+.color:hover{
+	border: 1px solid blue;
+}
