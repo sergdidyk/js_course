@@ -1,0 +1,58 @@
+
+<div class="container" id="wrapper">
+    <h1>{{title}}</h1>
+    <p>Welcome to our test</p>
+   
+    <div class="row">
+        <div class="col-sm-12 addUserWrapper">
+            <fieldset id="addUser">
+                <h2>Add new user</h2>
+                <input type="text" id="inputUserName" placeholder="Name">
+                <input type="text" id="inputUserEmail" placeholder="Email">
+                <br>
+                <input type="text" id="inputUserFullname" placeholder="Full Name">
+                <input type="text" id="inputUserAge" placeholder="Age">
+                <br>
+                <input type="text" id="inputUserLocation" placeholder="Location">
+                <input type="text" id="inputUserGender" placeholder="Gender">
+                <br>
+                <button class="btn btn-primary" id="btnAddUser">Add User</button>
+            </fieldset>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="userInfoWrapper col-sm-6" id="userInfo">
+            <h2>User Info</h2>
+            <p class="userInfoP">
+                <strong>Name: </strong><span id="userInfoName"></span>
+                <br>
+                <strong>Age: </strong><span id="userInfoAge"></span>
+                <br>
+                <strong>Gender: </strong><span id="userInfoGender"></span>
+                <br>
+                <strong>Location: </strong><span id="userInfoLocation"></span>
+                <br>
+            </p>
+        </div>
+
+        <div class="userListWrapper col-sm-6" id="userList">
+            <h2>User list</h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>UserName</th>
+                        <th>Email</th>
+                        <th>Delete?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+

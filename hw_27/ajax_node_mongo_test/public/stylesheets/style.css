@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.userInfoP {
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 50%;
+  background-color: ivory;
+  border-radius: 10px;
+}
+
+.userInfoP strong, .userInfoP span {
+  line-height: 1.5;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.addUserWrapper {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+fieldset * {
+ padding: 5px;
+ margin: 5px;
+}
+
+
